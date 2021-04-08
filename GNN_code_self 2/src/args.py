@@ -37,7 +37,7 @@ def get_args(model_opt, dataset):
             args.lr = 0.01
             args.weight_decay = 5e-4
            # args.epochs = 1000
-            args.epochs = 200
+            args.epochs = 500
         elif dataset == "SameFeats":
             args.lr = 0.05
             args.weight_decay = 5e-5

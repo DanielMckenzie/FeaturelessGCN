@@ -204,7 +204,7 @@ acc = gl.accuracy(l_pois[idx_test],labels[idx_test],num_labels)
 labels_per_class = 20 #5 labels per class
 #Compute accuracy
 acc = gl.accuracy(l_pois[idx_test],labels[idx_test],labels_per_class)   
-print("In compariosn: Poisson MBO: Accuracy=%f"%acc)
+print("In comparison: Poisson MBO: Accuracy=%f"%acc)
 
 
 
